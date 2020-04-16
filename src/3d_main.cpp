@@ -10514,7 +10514,7 @@ void sys_default_sleep_for()
 const std::string& get_version_string()
 {
 #ifdef __vita__
-	static const std::string version = "0.3";
+	static const std::string version = "0.4";
 #else
 	static const std::string version = "1.1.16";
 #endif

@@ -14,7 +14,7 @@
 			<target>psla:--ps</target>
 			<image>ps.png</image>
 			<text origin="background" align="right" y="-250" margin-right="14">
-				<str size="14" shadow="on" color="#ffffff">0.3</str>
+				<str size="14" shadow="on" color="#ffffff">0.4</str>
 			</text>
 		</liveitem>
 	</frame>
