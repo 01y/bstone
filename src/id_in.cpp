@@ -1511,7 +1511,7 @@ void IN_ReadControl(
 			}
 
 // Enter/Space/Escape should be enough to enter/leave menu item. [#179]
-#if 0
+#ifdef __vita__
 			if (Keyboard[def->button0])
 			{
 				buttons += 1 << 0;
