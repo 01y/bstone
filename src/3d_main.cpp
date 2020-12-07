@@ -51,6 +51,7 @@ Free Software Foundation, Inc.,
 #include "bstone_text_writer.h"
 
 #ifdef __vita__
+#include <stdexcept>
 #include <vitasdk.h>
 int _newlib_heap_size_user = 192 * 1024 * 1024;
 #endif

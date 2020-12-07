@@ -196,6 +196,7 @@ target_link_libraries(${SHORT_NAME}
   ScePower_stub
   SceAppUtil_stub
   pthread
+  SceAppMgr_stub
 )
 
 vita_create_self(${SHORT_NAME}.self ${SHORT_NAME})
